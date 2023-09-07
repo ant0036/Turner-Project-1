@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "custom.css",
+	"sources": [
+		"../sass/custom.scss"
+	],
+	"sourcesContent": [
+		"li {\r\n    list-style: none;\r\n    padding-left: 0;\r\n    margin-left: 0;\r\n}"
+	],
+	"names": [],
+	"mappings": ";AAAA,AAAA,EAAE,CAAC;EACC,UAAU,EAAE,IAAI;EAChB,YAAY,EAAE,CAAC;EACf,WAAW,EAAE,CAAC;CACjB"
+}
