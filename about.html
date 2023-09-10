@@ -5,33 +5,46 @@
         <title>Alexis Turner Design</title>
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="css/text.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+        <link type="text/css" rel="stylesheet" href="css/custom.css">
         <link type="text/css" rel="stylesheet" href="css/custom.css">
     </head>
     <body>
-        <nav>
-            <ul class="dropdown">
-                <li>Works</li>
-                <li>About</li>
-                <li>Contact Me</li>
-            </ul>
+        
+        <nav class="container">
+            <div class="row justify-content-center">
+                <ul class="dropdown col-4 text-center">
+                    <li><a href="index.html">Works</a></li>
+                    <li>About</li>
+                    <li>Contact Me</li>
+                </ul>
+            </div>
         </nav>
-        <img src="" alt="Alexis Turner Design">
-        <main>
-            <img src="" alt="me">
-            <h1>About Me</h1>
-            <p>About me body text</p>
-            <a>Resume</a>
-            <ul>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-                <li><img src="" alt="collage photo"></li>
-            </ul>
+        <img src="images/logo.png" alt="Alexis Turner Design">
+        <main class="container">
+            <div class="row justify-content-center">
+                <div class="col-8">
+                    <h1>About Me</h1>
+                    <div class="row">
+                        <p class="col-8">My name is Alexis Turner. I am a rising Senior in the Graphic Design program at West Virginia University. When I'm not working on design work, you'll most likely find me painting, reading, or spending time with my family.</p>
+                        <img src="images/me.png" alt="me" class="col-4">
+                    </div>
+                    <div class="row ">
+                        <a class="btn btn-secondary col-2 offset-9" href="resume.html">Resume</a>
+                    </div>
+                    <ul class="row">
+                        <li class="col-4"><img src="images/galleryone.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/gallerytwo.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/gallerythree.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/galleryfour.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/galleryfive.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/gallerysix.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/galleryseven.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/galleryeight.png" alt="collage photo"></li>
+                        <li class="col-4"><img src="images/gallerynine.png" alt="collage photo"></li>
+                    </ul>
+                </div>
+            </div>
         </main>
         <footer>
             <ul>
@@ -40,5 +53,7 @@
                 <li><img src="" alt="Other Social (linkedin)"></li>
             </ul>
         </footer>
+   
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
     </body>
 </html>
