@@ -6,7 +6,7 @@ li {
     margin-left: 0;
 }
 
-body {
+.background {
     background-image: url(../images/background.jpg);
 }
 a {
@@ -15,23 +15,48 @@ a {
 h1, h2 {
     font-family: $heading;
     color:#EFD780;
+    font-weight: bold;
 }
-p, li {
+p, li, a {
     font-family: $body;
     color: #664319;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.logo {
+    width:10%;
+}
+.bar {
+    padding: 0.3rem;
+    background-color: #EFD780;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
+.space {
+    margin: 1rem;
 }
 .header {
     background-color: #fff;
-    padding:1rem;
 }
 
 .heading {
     padding-top: 2rem;
     margin-bottom:1rem;
 }
-
+.foot {
+    background-color: #fff;
+}
+.white {
+    background-color: #fff;
+}
 .thumbnails img {
+    margin-top: 1rem;
     padding: 1rem;
     background-color: #fff;
     border: solid 0.5rem #EFD780;
+    margin-bottom:0.25rem;
 }
+

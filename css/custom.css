@@ -6,7 +6,7 @@ li {
 }
 
 /* line 9, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-body {
+.background {
   background-image: url(../images/background.jpg);
 }
 
@@ -19,31 +19,64 @@ a {
 h1, h2 {
   font-family: "costa", sans-serif;
   color: #EFD780;
+  font-weight: bold;
 }
 
-/* line 19, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-p, li {
+/* line 20, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+p, li, a {
   font-family: tahoma, sans-serif;
   color: #664319;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
-/* line 23, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 27, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.logo {
+  width: 10%;
+}
+
+/* line 30, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.bar {
+  padding: 0.3rem;
+  background-color: #EFD780;
+  border-radius: 1rem;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+/* line 38, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.space {
+  margin: 1rem;
+}
+
+/* line 41, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .header {
   background-color: #fff;
-  padding: 1rem;
 }
 
-/* line 28, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 45, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .heading {
   padding-top: 2rem;
   margin-bottom: 1rem;
 }
 
-/* line 33, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 49, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.foot {
+  background-color: #fff;
+}
+
+/* line 52, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.white {
+  background-color: #fff;
+}
+
+/* line 55, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .thumbnails img {
+  margin-top: 1rem;
   padding: 1rem;
   background-color: #fff;
   border: solid 0.5rem #EFD780;
+  margin-bottom: 0.25rem;
 }
 
 /*# sourceMappingURL=custom.css.map */
