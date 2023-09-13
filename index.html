@@ -14,60 +14,67 @@
     <link rel="stylesheet" href="https://use.typekit.net/vhv1wft.css" />
     <link type="text/css" rel="stylesheet" href="css/custom.css" />
   </head>
-  <body>
+  <body class="index">
     <div class="background">
-      <div class="header">
+      <div class="white">
         <nav class="container">
-          <div class="row justify-content-center">
-            <ul class="col-4 text-center">
-              <li><a href="index.html">Works</a></li>
-              <li><a href="about.html">About</a></li>
-              <li><a href="contact.html">Contact Me</a></li>
-            </ul>
+          <div class="container relative">
+            <a href="index.html" class="absolute"
+            ><img src="images/logo.png" alt="Alexis Turner Design" class="logo "/></a>
           </div>
-        </nav>
-      </div>
-      <div class="header">
-        <div class="container">
-          <a href="index.html"
-            ><img src="images/logo.png" alt="Alexis Turner Design" class="logo"
-          /></a>
-        </div>
-      </div>
-      <main class="thumbnails">
-        <div class="header">
-          <div class="container">
-            <div class="row">
-              <div class="col-8 offset-2">
-                <div class="row">
-                  <h1>Alexis Turner Design</h1>
+          <div class="row justify-content-center ">
+            <div class="col-4 text-center d-lg-none">
+              <div class="dropdown">
+                <button onclick="show_hide()" class="button"><img src="images/menu.png" alt=""></button>  
+          
+                
+                <div id="list-items">
+                   <a href="index.html" class="active"> Work </a>
+                   <a href="about.html"> About </a>
+                   <a href="contact.html"> Contact Me</a>
                 </div>
               </div>
-            </div>
-
-            <div class="row">
-              <div class="col-8 offset-2 header">
-                <p class="row">
-                  Small about section that I haven't written quite yet.
-                </p>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-8 offset-2 header heading">
-                <h2 class="row">Works</h2>
-              </div>
-            </div>
-            <div class="row justify-content-center">
-              <div class="col-10 col-lg-12">
+          </div>
+            <div class="row justify-content-center text-center" id="bignav">
+              <div class=" col-10  d-none d-lg-block">
                 <div class="row justify-content-center">
-                  <div class="bar"></div>
+                  <div class="col-12">
+                    <a href="index.html" class="active"> WORK </a>
+                    <a href="about.html"> ABOUT </a>
+                    <a href="contact.html"> CONTACT ME</a>
+                  </div>
                 </div>
+            </div>
+            
+          </div>
+           
+        </nav>
+        <div class="">
+          
+        </div>
+      </div>
+      <main>
+        <div class="white">
+          <div class="container">
+            <div class="row justify-content-center ">
+              <div class="col-8 text-center">
+                <h1>Alexis Turner Design</h1>
+                <p>Graphic Designer please help me figure out what to put here im so lost</p>
               </div>
             </div>
           </div>
         </div>
-
-        <ul class="row justify-content-center">
+        <div class="white">
+          <div class="row justify-content-center">
+            <div class="col-10">
+              <div class="row justify-content-center">
+                <div class="bar"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </main>
+        <ul class="row justify-content-center thumbnails">
           <div class="col-8">
             <div class="row justify-content-center">
               <li class="col-8 col-md-6 col-lg-5">
@@ -86,12 +93,6 @@
                   Typeface Creation and Showcase
                 </a>
               </li>
-            </div>
-          </div>
-        </ul>
-        <ul class="row justify-content-center">
-          <div class="col-8">
-            <div class="row justify-content-center">
               <li class="col-8 col-md-6 col-lg-5">
                 <a href="bees.html">
                   <img src="images/beesthumbnail.png" alt="" class="w-100" />
@@ -104,12 +105,6 @@
                   Book Covers Collection
                 </a>
               </li>
-            </div>
-          </div>
-        </ul>
-        <ul class="row justify-content-center">
-          <div class="col-8">
-            <div class="row justify-content-center">
               <li class="col-12 col-lg-10">
                 <a href="ads.html">
                   <img
@@ -120,12 +115,6 @@
                   Ad Campaign
                 </a>
               </li>
-            </div>
-          </div>
-        </ul>
-        <ul class="row justify-content-center">
-          <div class="col-8">
-            <div class="row justify-content-center">
               <li class="col-8 col-md-6 col-lg-5">
                 <a href="pints.html">
                   <img src="images/pintsthumbnail.png" alt="" class="w-100" />
@@ -138,12 +127,6 @@
                   Smithsonian Exhibit Publication
                 </a>
               </li>
-            </div>
-          </div>
-        </ul>
-        <ul class="row justify-content-center">
-          <div class="col-8">
-            <div class="row justify-content-center">
               <li class="col-8 col-md-6 col-lg-5">
                 <a href="weather.html">
                   <img
@@ -167,25 +150,44 @@
             </div>
           </div>
         </ul>
-      </main>
-      <div class="foot">
-        <footer class="container">
+        <div class="white">
+          <div class="container white">
             <div class="row justify-content-center">
-            <div class="col-10 col-lg-12">
+              <div class="col-10">
                 <div class="row justify-content-center">
-                <div class="bar"></div>
+                  <div class="bar"></div>
                 </div>
+              </div>
             </div>
+          </div>
+        </div>
+      <div class="white">
+        <footer class="container">
+          <div class="row justify-content-center">
+            <div class="col-4 col-lg-2">
+              <div>
+               
+                  <a href="index.html"  class="row justify-content-center"
+                  ><img src="images/logo.png" alt="#" class="logo col-12"
+                /></a>
+                
+              </div>
             </div>
-            <ul>
-            <li><img src="" alt="Make a social to put here" /></li>
-            <li><img src="images/logo.png" class="logo" alt="Logo" /></li>
-            <li><img src="" alt="Other Social (linkedin)" /></li>
-            </ul>
+          </div>
         </footer>
-    </div>
+      </div>
     </div>
 
+    <script>
+      function show_hide() {
+         var click = document.getElementById("list-items");
+         if (click.style.display === "none") {
+            click.style.display = "block";
+         } else {
+            click.style.display = "none";
+         }
+      }
+   </script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"

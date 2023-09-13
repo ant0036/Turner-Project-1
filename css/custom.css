@@ -1,41 +1,53 @@
-/* line 3, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 7, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 li {
   list-style: none;
   padding-left: 0;
   margin-left: 0;
 }
 
-/* line 9, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 13, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .background {
   background-image: url(../images/background.jpg);
 }
 
-/* line 12, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 16, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 a {
   text-decoration: none;
 }
 
-/* line 15, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-h1, h2 {
+/* line 19, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.underline {
+  text-decoration: underline;
+}
+
+/* line 22, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+h1, h2, h3 {
   font-family: "costa", sans-serif;
-  color: #EFD780;
+  color: #C98A3D;
   font-weight: bold;
 }
 
-/* line 20, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-p, li, a {
+/* line 27, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+li, a {
   font-family: tahoma, sans-serif;
   color: #664319;
   font-weight: 500;
   font-size: 1.2rem;
 }
 
-/* line 27, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-.logo {
-  width: 10%;
+/* line 33, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+p {
+  font-family: tahoma, sans-serif;
+  color: #664319;
+  font-size: 1.2rem;
 }
 
-/* line 30, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 38, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.logo {
+  width: 50%;
+}
+
+/* line 41, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .bar {
   padding: 0.3rem;
   background-color: #EFD780;
@@ -44,39 +56,141 @@ p, li, a {
   margin-top: 1rem;
 }
 
-/* line 38, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 49, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .space {
+  margin: 0;
   margin: 1rem;
 }
 
-/* line 41, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-.header {
-  background-color: #fff;
-}
-
-/* line 45, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-.heading {
-  padding-top: 2rem;
-  margin-bottom: 1rem;
-}
-
-/* line 49, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-.foot {
-  background-color: #fff;
-}
-
-/* line 52, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+/* line 56, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .white {
   background-color: #fff;
 }
 
-/* line 55, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-.thumbnails img {
-  margin-top: 1rem;
+/* line 60, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.yellow {
+  background-color: #C98A3D;
+}
+
+/* line 64, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.index h1 {
+  padding-top: 2rem;
+}
+
+/* line 67, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.thumbnails li {
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #fff;
   border: solid 0.5rem #EFD780;
-  margin-bottom: 0.25rem;
+}
+
+/* line 75, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.thumbnails img {
+  padding-bottom: 0.5rem;
+}
+
+/* line 79, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.relative {
+  position: relative;
+}
+
+/* line 83, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.absolute {
+  position: absolute;
+}
+
+/* line 87, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button {
+  border: none;
+  background-color: #fff;
+  margin-top: 1em;
+}
+
+/* line 93, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+#list-items {
+  display: none;
+  position: relative;
+  background-color: white;
+}
+
+/* line 100, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+#list-items a {
+  font-family: "costa", sans-serif;
+  display: block;
+  font-size: 1rem;
+  color: #C98A3D;
+  text-decoration: none;
+  padding: 10px;
+  text-align: center;
+}
+
+/* line 109, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+#bignav {
+  padding: 1.5rem 0;
+}
+
+/* line 112, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+#bignav a {
+  margin: 4.5rem;
+  font-family: "costa", sans-serif;
+  font-weight: 700;
+  color: #C98A3D;
+  font-size: 1.5rem;
+}
+
+/* line 119, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+#bignav a:hover {
+  color: #EFD780;
+}
+
+/* line 123, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.active {
+  color: #664319 !important;
+}
+
+/* line 129, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button {
+  background-color: rgba(255, 255, 255, 0);
+}
+
+/* line 131, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button li {
+  margin-left: -1rem;
+}
+
+/* line 135, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button a {
+  margin-bottom: 1rem;
+  padding: 0.5rem 4rem;
+  font-family: "costa", sans-serif;
+  font-size: 1.5rem;
+  background-color: #EFD780;
+  color: #664319;
+  border: none;
+}
+
+/* line 143, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button a:hover {
+  color: #664319;
+  background-color: #F5F1C6;
+}
+
+/* line 147, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button a:active {
+  color: #664319 !important;
+  background-color: #F5F1C6 !important;
+}
+
+/* line 155, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.button :nth-child(2) a {
+  padding: 0.5rem 5.3rem;
+}
+
+/* line 162, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.grid {
+  padding: 0;
 }
 
 /*# sourceMappingURL=custom.css.map */
