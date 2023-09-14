@@ -38,6 +38,9 @@ p {
 .logo {
     width:50%;
 }
+footer {
+    padding-bottom: 1rem;
+}
 .bar {
     padding: 0.3rem;
     background-color: $medium-yellow;
@@ -48,7 +51,7 @@ p {
 }
 .space {
     margin:0;
-    margin: 1rem;
+    padding: 2rem 1rem;
 }
 
 
@@ -62,6 +65,9 @@ p {
 }
 
 .index h1 {
+    padding-top: 2rem;
+}
+.top {
     padding-top: 2rem;
 }
 .thumbnails li {
@@ -111,7 +117,7 @@ p {
 }
  #bignav a {
     
-    margin: 4.5rem;
+   
     font-family: $heading;
     font-weight: 700;
     color: $dark-yellow;
