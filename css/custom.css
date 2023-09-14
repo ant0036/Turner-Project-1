@@ -79,8 +79,6 @@ p {
 
 /* line 67, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
 .thumbnails li {
-  margin-right: 1.5rem;
-  margin-bottom: 1.5rem;
   padding: 1rem;
   background-color: #fff;
   border: solid 0.5rem #EFD780;
