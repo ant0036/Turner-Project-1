@@ -241,4 +241,23 @@ form button:hover {
   background-color: #F5F1C6;
 }
 
+/* line 206, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.two {
+  top: 0;
+  left: 0;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+/* line 214, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+.hover:hover .two {
+  opacity: 1;
+  z-index: 2;
+}
+
+/* line 221, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+ul, ol {
+  padding-left: 0 !important;
+}
+
 /*# sourceMappingURL=custom.css.map */

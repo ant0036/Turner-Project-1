@@ -201,3 +201,23 @@ form {
             }
     }
 }
+ 
+
+.two {
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.hover:hover {
+    .two {
+        opacity: 1;
+        z-index: 2;
+        
+    }
+}
+
+ul, ol {
+    padding-left: 0 !important;
+}
