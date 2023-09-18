@@ -256,7 +256,7 @@ form button:hover {
 }
 
 /* line 221, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
-ul, ol {
+.index ul {
   padding-left: 0 !important;
 }
 
