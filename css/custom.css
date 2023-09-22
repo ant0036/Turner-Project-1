@@ -279,4 +279,11 @@ form button:hover {
   font-size: 1.2rem;
 }
 
+@media (max-width: 576px) {
+  /* line 242, ../../Graphic Design/Advanced Web/Project 1/docs/Turner-Project-1/Turner-Project-1/sass/custom.scss */
+  p {
+    font-size: 1rem;
+  }
+}
+
 /*# sourceMappingURL=custom.css.map */
